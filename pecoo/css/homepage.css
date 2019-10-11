@@ -1,0 +1,302 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Arial","Microsoft YaHei","宋体",sans-serif;
+  background: #f6f6f6; }
+
+.ding {
+  width: 100%;
+  height: 56px; }
+
+.nav {
+  display: block;
+  width: 1200px;
+  height: 39px;
+  margin: 0 auto;
+  cursor: pointer; }
+  .nav a {
+    line-height: 38px;
+    font-size: 14px;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    border-right: 1px solid #aea9a9; }
+    .nav a:hover {
+      border-bottom: 1px solid #131212; }
+  .nav .orange {
+    font-family: "Arial","Microsoft YaHei","宋体",sans-serif;
+    color: #e1622a;
+    font-weight: bold; }
+
+.banner {
+  width: 1280px;
+  height: 368px;
+  margin: 0 auto;
+  background: url(../images/banner.jpg) no-repeat center center;
+  background-size: 1920px;
+  cursor: pointer; }
+
+.pop {
+  width: 1200px;
+  height: 370px;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  z-index: 1; }
+  .pop h2 {
+    font-size: 24px; }
+  .pop ul {
+    width: 2250px;
+    height: 325px;
+    margin-left: 20px; }
+    .pop ul li {
+      width: 224px;
+      height: 325px;
+      margin-right: 20px;
+      float: left;
+      box-shadow: 1px 1px 1px 1px #a09b9b93; }
+    .pop ul img {
+      width: 222px;
+      height: 224px; }
+    .pop ul p {
+      width: 192px;
+      height: 36px;
+      font-size: 20px;
+      padding: 0 16px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 36px; }
+    .pop ul span {
+      padding: 19px 16px 0; }
+  .pop i {
+    font-size: 40px;
+    z-index: 10; }
+  .pop .icon-chevron-circle-left {
+    display: block;
+    position: absolute;
+    top: 173px;
+    left: 0; }
+  .pop i:hover {
+    color: #a09b9b93; }
+  .pop .icon-circle-arrow-right {
+    display: block;
+    position: absolute;
+    top: 173px;
+    left: 1160px; }
+
+.classify {
+  width: 1220px;
+  height: 500px;
+  margin: 0 auto;
+  font-size: 22px; }
+  .classify ul {
+    width: 1220px;
+    height: 380px; }
+    .classify ul li {
+      width: 305px;
+      height: 180px;
+      position: relative;
+      float: left; }
+      .classify ul li img {
+        width: 285px;
+        height: 160px;
+        float: left; }
+      .classify ul li div {
+        width: 285px;
+        height: 160px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(90, 87, 87, 0.503);
+        color: #fbfbfb;
+        line-height: 160px;
+        text-align: center;
+        cursor: pointer; }
+        .classify ul li div:hover {
+          background-color: #ffffff00; }
+    .classify ul p {
+      width: 1200px;
+      margin: 0 auto;
+      background-color: #bfddba; }
+
+.biddingblock {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: #f0d7d7; }
+  .biddingblock ul {
+    width: 1200px;
+    height: 1000px; }
+    .biddingblock ul li {
+      width: 285px;
+      height: 470px;
+      float: left; }
+      .biddingblock ul li img {
+        width: 285px;
+        height: 344px; }
+  .biddingblock p {
+    display: block;
+    width: 255px;
+    height: 34px;
+    padding: 0 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .biddingblock span {
+    display: inline-block;
+    width: 137px;
+    height: 32px;
+    background-color: #24988B;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px; }
+
+.zhonglei {
+  width: 1020px;
+  height: 714px;
+  margin: 0 auto; }
+  .zhonglei h2 {
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center; }
+  .zhonglei ul {
+    width: 1020px;
+    height: 714px; }
+    .zhonglei ul li {
+      width: 315px;
+      height: 55px;
+      float: left;
+      font-size: 16px;
+      margin: 0 0 40px 17px;
+      border-bottom: 2px solid rgba(185, 191, 190, 0.544); }
+      .zhonglei ul li img {
+        width: 100px;
+        height: 55px;
+        float: right; }
+
+.videoint {
+  width: 607px;
+  height: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 1; }
+  .videoint .videocon {
+    width: 1210px;
+    height: 320px; }
+    .videoint .videocon div {
+      float: left;
+      padding: 0 50px; }
+    .videoint .videocon .icon-chevron-circle-left {
+      font-size: 40px;
+      position: absolute;
+      top: 240px;
+      left: 0;
+      color: #a4a1a192; }
+    .videoint .videocon .icon-circle-arrow-right {
+      font-size: 40px;
+      position: absolute;
+      top: 240px;
+      right: 0;
+      color: #a4a1a192; }
+    .videoint .videocon .iconfont:hover {
+      color: #757575; }
+  .videoint h2 {
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center; }
+  .videoint #video {
+    width: 504px;
+    height: 315px; }
+  .videoint #video2 {
+    width: 504px;
+    height: 315px;
+    margin: 0 auto;
+    border-bottom: 1px solid #222; }
+
+.list5 {
+  width: 1000px;
+  height: 175px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #626161; }
+  .list5 .foot5 {
+    width: 1000px;
+    height: 85px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #626161; }
+    .list5 .foot5 li {
+      float: left;
+      margin: 0 20px; }
+    .list5 .foot5 p:nth-of-type(1) {
+      font-size: 18px;
+      color: #222; }
+  .list5 span {
+    display: block;
+    width: 133px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #f86623;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto; }
+
+.fiveperson {
+  width: 100%;
+  height: 588px;
+  background: url(../images/aasd_2.png) no-repeat center center;
+  background-size: 1920px;
+  background-color: #24988b;
+  position: relative; }
+  .fiveperson span {
+    display: block;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: #fff;
+    color: #24988b;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 500px;
+    left: 671px; }
+
+.download {
+  width: 400px;
+  height: 160px;
+  margin: 0 auto;
+  font-size: 16px; }
+  .download .phoneleft {
+    width: 107px;
+    height: 159px;
+    float: left; }
+  .download .pho {
+    width: 135px;
+    height: 40px; }
+
+.footerbotow {
+  width: 100%;
+  height: 112px;
+  background-color: black; }
+  .footerbotow ul {
+    width: 986px;
+    height: 92px;
+    margin: 0 auto; }
+    .footerbotow ul p {
+      color: #737373; }
+    .footerbotow ul li {
+      float: left;
+      font-size: 12px;
+      margin-right: 10px;
+      line-height: 26px; }
+      .footerbotow ul li a {
+        color: #737373; }
+
+/*# sourceMappingURL=homepage.css.map */

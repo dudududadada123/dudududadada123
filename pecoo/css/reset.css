@@ -1,0 +1,30 @@
+/*样式重置*/
+div,ul,li,ol,dl,dt,dd,table,h1,h2,h3,h4,h5,h6,form,body,p{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}body{
+	font-size: 12px;
+	width: 100%;
+}
+img{
+	vertical-align: middle;
+}
+ul,ol,li{
+	list-style: none;
+}
+
+.noBorder{
+	border:0!important;
+}
+.clear:after{
+	content: '';
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	display: block;
+	overflow: hidden;
+}

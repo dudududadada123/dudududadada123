@@ -1,0 +1,56 @@
+footer{
+    width: 100%;
+    height: 607px;
+    background-color: rgb(18, 17, 17);
+    color: #fff;
+    font-size: 14px;
+}
+footer section{
+    width:1280px;
+    height: 607px;
+    margin: 0 auto;
+}
+.top{
+    width: 100%;
+    height: 319px;
+}
+img{
+    width: 36px;
+    height: 36px;
+}
+h1{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+}
+footer section ul:nth-of-type(1),section ul:nth-of-type(2),section ul:nth-of-type(3),section ul:nth-of-type(4){
+    float: left;
+    margin-left: 150px;
+}
+section ul:nth-of-type(4) li{
+    float: left;
+    margin-right: 20px;
+}
+footer section ul li{
+    line-height: 30px;
+}
+footer section ul li:first-child{
+    font-size: 18px;
+}
+.footerbutton{
+    width: 100%;
+    height: 288px;
+    
+}
+.footerbutton a{
+    color: #fff;
+    font-size: 16px;
+    margin-right: 50px;
+    
+}
+.footerbutton a:first-child{
+    margin-left: 150px;
+}
+.footerbutton p{
+    text-align: center;
+}
